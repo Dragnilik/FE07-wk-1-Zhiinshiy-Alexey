@@ -7,6 +7,14 @@
   text-decoration: none;
   background: url(/Screen/thumb-1920-684923.jpg);
 }
+.Awesome-title * {
+  background-color: rgb(255, 180, 226);
+  color: rgb(255, 180, 226);
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 10px solid rgb(61, 187, 103);
+}
 .container-first * {
   background-color: rgb(255, 180, 226);
   color: rgb(255, 180, 226);
@@ -24,6 +32,13 @@
   text-align: center;
 }
 #ul * {
+  width: 300px;
+  margin: 7px;
+  padding: 10px;
+  border: 10px solid rgb(61, 187, 103);
+  text-align: center;
+}
+.li {
   width: 300px;
   margin: 7px;
   padding: 10px;
