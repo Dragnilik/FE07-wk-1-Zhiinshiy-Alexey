@@ -1,0 +1,174 @@
+.pricing {
+  width: 100%;
+  background-color: #F5F5F5;
+}
+.pricing-titel:after {
+  content: '';
+  display: block;
+  width: 64px;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 34px;
+  background-color: #e72424;
+}
+.pricing-description {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #86878b;
+  text-align: center;
+  margin-top: 34px;
+}
+.pricing-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 62px;
+  padding: 0 -15px;
+  flex-wrap: wrap;
+}
+.pricing-item {
+  margin: 0 15px;
+}
+.pricing-card {
+  list-style-type: none;
+  width: 340px;
+}
+/*basic section */
+.pricing-card_basic {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  background-color: #333333;
+
+  line-height: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.pricing-card_basic_price {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  margin-top: 1px;
+  text-align: center;
+  line-height: 98px;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.pricing-card_basic_duration {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  background-color: #333333;
+  margin-top: 1px;
+
+  line-height: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.pricing-card_basic_product {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background-color: #ffffff;
+  margin-top: 1px;
+
+  line-height: 50px;
+  color: #86878b;
+  text-align: center;
+}
+/*optima section */
+.pricing-card_optima {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  background-color: #333333;
+
+  line-height: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.pricing-card_optima_price {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  margin-top: 1px;
+  text-align: center;
+  line-height: 98px;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.pricing-card_optima_duration {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  background-color: #dd0f0f;
+  margin-top: 1px;
+
+  line-height: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.pricing-card_optima_product {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background-color: #ffffff;
+  margin-top: 1px;
+
+  line-height: 50px;
+  color: #86878b;
+  text-align: center;
+}
+/*section pro */
+.pricing-card_pro {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  background-color: #333333;
+
+  line-height: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.pricing-card_pro_price {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  margin-top: 1px;
+  text-align: center;
+  line-height: 98px;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.pricing-card_pro_duration {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  background-color: #333333;
+  margin-top: 1px;
+
+  line-height: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.pricing-card_pro_product {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background-color: #ffffff;
+  margin-top: 1px;
+
+  line-height: 50px;
+  color: #86878b;
+  text-align: center;
+}
