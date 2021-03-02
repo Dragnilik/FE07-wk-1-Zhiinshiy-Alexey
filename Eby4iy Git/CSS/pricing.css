@@ -1,6 +1,12 @@
 .pricing {
   width: 100%;
-  background-color: #F5F5F5;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f5f5f5;
+}
+.pricing-titel {
+  padding-top: 80px;
+  text-shadow: rgb(177, 57, 57) 0 0 2px;
 }
 .pricing-titel:after {
   content: '';
@@ -9,12 +15,12 @@
   height: 2px;
   margin: 0 auto;
   margin-top: 34px;
-  background-color: #e72424;
+  background-color: rgb(177, 57, 57);
 }
 .pricing-description {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 20px;
 
   color: #86878b;
   text-align: center;
@@ -22,7 +28,7 @@
 }
 .pricing-wrap {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 62px;
   padding: 0 -15px;
   flex-wrap: wrap;
@@ -39,7 +45,7 @@
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  background-color: #333333;
+  background-color: #000000;
 
   line-height: 50px;
   color: #ffffff;
@@ -53,7 +59,7 @@
   margin-top: 1px;
   text-align: center;
   line-height: 98px;
-  background-color: #333333;
+  background-color: #000000;
   color: #ffffff;
 }
 
@@ -61,7 +67,7 @@
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  background-color: #333333;
+  background-color: #000000;
   margin-top: 1px;
 
   line-height: 50px;
@@ -85,7 +91,7 @@
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  background-color: #333333;
+  background-color: #000000;
 
   line-height: 50px;
   color: #ffffff;
@@ -99,7 +105,7 @@
   margin-top: 1px;
   text-align: center;
   line-height: 98px;
-  background-color: #333333;
+  background-color: #000000;
   color: #ffffff;
 }
 
@@ -107,7 +113,7 @@
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  background-color: #dd0f0f;
+  background-color: rgb(177, 57, 57);
   margin-top: 1px;
 
   line-height: 50px;
@@ -131,7 +137,7 @@
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  background-color: #333333;
+  background-color: #000000;
 
   line-height: 50px;
   color: #ffffff;
@@ -145,7 +151,7 @@
   margin-top: 1px;
   text-align: center;
   line-height: 98px;
-  background-color: #333333;
+  background-color: #000000;
   color: #ffffff;
 }
 
@@ -153,7 +159,7 @@
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  background-color: #333333;
+  background-color: #000000;
   margin-top: 1px;
 
   line-height: 50px;
@@ -171,4 +177,8 @@
   line-height: 50px;
   color: #86878b;
   text-align: center;
+}
+li:hover {
+  color: black;
+  background-color: #ffffff;
 }

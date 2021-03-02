@@ -1,11 +1,13 @@
 .awesome {
   width: 100%;
-
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #ffffff;
 }
 
 .awesome-titel {
   margin-top: 100px;
+  text-shadow: rgb(177, 57, 57) 0 0 2px;
 }
 
 .awesome-titel:after {
@@ -15,7 +17,7 @@
   height: 2px;
   margin: 0 auto;
   margin-top: 25px;
-  background-color: #e72424;
+  background-color: rgb(177, 57, 57);
 }
 
 .awesome-description {
@@ -23,7 +25,7 @@
   margin-bottom: 36px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 20px;
   color: #86878b;
   text-align: center;
 }
@@ -31,12 +33,13 @@
 .awesome-wrap {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .awesome-item {
   display: inline-block;
-  margin-top: 31px;
+  margin: 31px 15px 0px 15px;
   width: 350px;
 }
 
@@ -65,7 +68,6 @@
   margin: auto;
   text-align: center;
 }
-
 .icon-lamp {
   display: block;
   margin: 19px auto;
